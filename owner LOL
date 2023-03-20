@@ -1,0 +1,14 @@
+local OwnerWLTable = {
+    "0primeontop11",
+}
+
+local Player = game:GetService("Players").LocalPlayer
+
+for i, v in pairs(game:GetService("Players"):GetChildren()) do
+	if game:GetService("Players").LocalPlayer ~= v then
+		if table.find(OwnerWLTable, v.Name) then
+			createwarning("PrimeWare", "Owner Joined", 10000000000000)
+			game.Players.LocalPlayer:Kick("You Joined 0prime")
+		end
+	end
+end
