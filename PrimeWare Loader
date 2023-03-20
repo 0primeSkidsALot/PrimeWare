@@ -8,4 +8,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/0primeSkidsALot/vape-
 --logo
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0primeSkidsALot/PrimeWare/main/logo", true))()
 
+--owner
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0primeSkidsALot/PrimeWare/main/owner%20LOL", true))()
+
 
